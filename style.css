@@ -10,3 +10,34 @@ background-color: khaki;
 .p4{
 background-color: lightgray;    
 }
+input{
+    width: 50%;
+    border-color: blue;
+    align-self: auto;
+    
+
+    
+}
+td:nth-child(2){
+    background-color: lightgray;
+}
+td:nth-child(1){
+    background-color: goldenrod;
+}
+
+form{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+table {
+    border-collapse: collapse;
+  }
+  
+  table, th, td {
+    border: 1px solid black;
+  }
+
+  table td{
+      text-align: center;
+  }
