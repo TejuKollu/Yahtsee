@@ -1,3 +1,7 @@
+img{
+    height: 150px;
+}
+
 .p1{
     background-color: azure;
 }
@@ -12,12 +16,10 @@ background-color: lightgray;
 }
 input{
     width: 50%;
-    border-color: blue;
+    border-color: rgb(6, 6, 54);
     align-self: auto;
-    
-
-    
 }
+
 td:nth-child(2){
     background-color: lightgray;
 }
@@ -37,7 +39,57 @@ table {
   table, th, td {
     border: 1px solid black;
   }
+  
+  /* Full-width textarea */
+  textarea#old {
+    width: 150%;
+    border: none;
+    background: #f1f1f1;
+    min-height: 200px;
+  }
 
-  table td{
-      text-align: center;
+  textarea#msg {
+    width: 150%;
+    border: none;
+    background: #f1f1f1;
+    min-height: 50px;
+  }
+  
+  /* Set a style for the submit/login button */
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 150%;
+    margin-bottom:10px;
+    opacity: 0.8;
+  }
+  
+  /* Add a red background color to the cancel button */
+  .cancel {
+    background-color: rgb(240, 98, 98);
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 150%;
+    margin-bottom:10px;
+    opacity: 0.8;
+  }
+  
+  div#chatbox h1{
+    width: 150%;
+      background-color: lightsalmon;
+      text-align:center;
+  }
+  /*div#tablePart{
+      float: left;
+  }*/
+  div#chatbox{
+      margin-top: 175px;
+      position: absolute;
+      right: 50px;
+      bottom: 0px;
   }
