@@ -14,32 +14,39 @@ button{
     cursor: pointer;
     transition:width 2s;
     transition-timing-function:ease-in-out;
-
 }
+
 button:hover{
     text-decoration-color: white;
     width: 400px;
 }
-
 body{
     background-image: url("1.png");
     background-repeat:no-repeat;
     text-align: center;
 }
-
-img{
-    position:absolute;
-    animation-name: logo-animation;
-    animation-duration:4s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    background-color: red;
-}
-
-@keyframes logo-animation {
-    0%   {background-color:red; left:0px; top:0px;}
-    25%  {background-color:yellow; left:800px; top:0px;}
-    50%  {background-color:blue; left:800px; top:300px;}
-    75%  {background-color:green; left:0px; top:300px;}
-    100% {background-color:red; left:0px; top:0px;}
-}
+input[type=text], select {
+    width: 12%;
+    transition: width .35s ease-in-out;
+    padding: 12px 20px;
+    margin: 2px 0;
+    display: inline-block;
+    border: 1px solid grey;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+  }
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+h4 {
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    color:blue;
+    font-weight: bold;
+  }
+  p{
+    color:blue;
+    font-weight: bold;
+  }
