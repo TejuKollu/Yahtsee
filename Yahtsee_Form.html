@@ -26,7 +26,7 @@
                 <td class="dice">Aces &#x2680; = 1 </td>
                 <td>Count and add only Aces</td>
                     <td class="p1" text-align:center>
-                        <input type="number" min="0" max="100" step="1"><br>
+                        <input id= "p11" type="number" min="0" max="100" step="1"><br>
                     </td>
                     <td class="p2">
                         <input type="number" min="0" max="100" step="1"><br>
@@ -43,7 +43,7 @@
                 <td class="dice">Twos &#x2681; = 2 </td>
                 <td>Count and add only Twos</td>
                     <td class="p1">
-                        <input type="number" min="0" max="100" step="2"><br>
+                        <input id= "p12" type="number" min="0" max="100" step="2"><br>
                     </td>
                     <td class="p2">
                         <input type="number" min="0" max="100" step="2"><br>
@@ -60,7 +60,7 @@
                 <td class="dice">Threes &#x2682; = 3 </td>
                 <td>Count and add only Threes</td>
                     <td class="p1">
-                        <input type="number" min="0" max="100" step="3"><br>
+                        <input id= "p13" type="number" min="0" max="100" step="3"><br>
                     </td>
                     <td class="p2">
                         <input type="number" min="0" max="100" step="3"><br>
@@ -77,7 +77,7 @@
                 <td class="dice">Fours &#x2683;  = 4 </td>
                 <td>Count and add only Fours</td>
                     <td class="p1">
-                        <input type="number" min="0" max="100" step="4"><br>
+                        <input id= "p14" type="number" min="0" max="100" step="4"><br>
                     </td>
                     <td class="p2">
                         <input type="number" min="0" max="100" step="4"><br>
@@ -94,7 +94,7 @@
                 <td class="dice">Fives &#x2684; = 5 </td>
                 <td>Count and add only Fives</td>
                     <td class="p1">
-                        <input type="number" min="0" max="100" step="5"><br>
+                        <input id= "p15" type="number" min="0" max="100" step="5"><br>
                     </td>
                     <td class="p2">
                         <input type="number" min="0" max="100" step="5"><br>
@@ -111,7 +111,7 @@
                 <td class="dice">Sixes &#x2685; = 6 </td>
                 <td>Count and add only Sixes</td>
                     <td class="p1">
-                        <input type="number" min="0" max="100" step="6"><br>
+                        <input id= "p16" type="number" min="0" max="100" step="6"><br>
                     </td>
                     <td class="p2">
                         <input type="number" min="0" max="100" step="6"><br>
@@ -128,16 +128,20 @@
                 <td><strong>TOTAL SCORE</strong></td>
                 <td class="arrow"><strong>&rarr;</strong></td>
                     <td class="p1">
-                        <input type="number" min="0" max="200">
+                       <button type="submit" id="calculate">Calculate</button>
+                        <input  type="number" min="0" max="200" id="resultP1">
                     </td>
                     <td class="p2">
-                        <input type="number" min="0" max="200">
+                          <button type="submit" id="calculate">Calculate</button>
+                        <input type="number" min="0" max="200" id="resultP2">
                     </td>
                     <td class="p3">
-                        <input type="number" min="0" max="200">
+                           <button type="submit" id="calculate">Calculate</button> 
+                        <input type="number" min="0" max="200" id="resultP3">
                     </td>
                     <td class="p4">
-                        <input type="number" min="0" max="200">
+                          <button type="submit" id="calculate">Calculate</button> 
+                        <input type="number" min="0" max="200" id="resultP4">
                     </td>
             </tr>
 
@@ -394,6 +398,7 @@
             <button type="button" class="cancel">Close</button>
         </form>
     </div>
+    <script src="yahtsee.js"></script>
 </body>
 
 </html>
