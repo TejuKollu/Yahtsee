@@ -1,208 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <link href="style.css" rel="stylesheet" type="text/css">
-        <title>Yahtsee Form</title>
-        <meta charset="UTF-8">
-    </head>
 
-    <body>
-        <div id="tablePart">
-            <img src="Yahtzee-logo.png" alt="Yatzee Logo" >
-        <table  border="1">
+<head>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>Yahtsee Form</title>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <div id="tablePart">
+        <img src="Yahtzee-logo.png" alt="Yatzee Logo">
+        <table border="1">
             <tr><strong>
-              <th>UPPER SECTION</th>
-              <th>HOW TO SCORE  </th>
-              <th class="p1">PLAYER 1</th>
-              <th class="p2">PLAYER 2</th>
-              <th class="p3">PLAYER 3</th>
-              <th class="p4">PLAYER 4</th>
-            </strong>
+                    <th>UPPER SECTION</th>
+                    <th>HOW TO SCORE </th>
+                    <th>PLAYER 1</th>
+                    <th>PLAYER 2</th>
+                    <th>PLAYER 3</th>
+                    <th>PLAYER 4</th>
+                </strong>
             </tr>
 
             <tr>
-              <td>Aces = 1</td>
-              <td>Count and add only Aces</td>
-              <form >
-              <td class="p1"  text-align:center>   
-                      <input type="number" min="0" max="100" step="1"><br>   
-              </td>
-              <td class="p2">
-                    <input type="number" min="0" max="100" step="1"><br>
-            </td>
-            <td class="p3">
-                    <input type="number" min="0" max="100" step="1"><br>
-            </td>
-            <td class="p4">
-                    <input type="number" min="0" max="100" step="1"><br>
-            </td>
-        </form>
+                <td class="dice">Aces = 1 <span> &#x2680;</span></td>
+                <td>Count and add only Aces</td>
+                <form>
+                    <td class="p1" text-align:center>
+                        <input type="number" min="0" max="100" step="1"><br>
+                    </td>
+                    <td class="p2">
+                        <input type="number" min="0" max="100" step="1"><br>
+                    </td>
+                    <td class="p3">
+                        <input type="number" min="0" max="100" step="1"><br>
+                    </td>
+                    <td class="p4">
+                        <input type="number" min="0" max="100" step="1"><br>
+                    </td>
+                </form>
             </tr>
 
             <tr>
-              <td>Twos = 2</td>
-              <td>Count and add only Twos</td>
-              <form>
-              <td class="p1">
-                    <input type="number" min="0" max="100" step="2"><br>
-            </td>
-            <td class="p2">
-                  <input type="number" min="0" max="100" step="2"><br>
-          </td>
-          <td class="p3">
-                  <input type="number" min="0" max="100" step="2"><br>
-          </td>
-          <td class="p4">
-                  <input type="number" min="0" max="100" step="2"><br>
-          </td>
-        </form>
+                <td class="dice">Twos = 2 <span> &#x2681;</span></td>
+                <td>Count and add only Twos</td>
+                <form>
+                    <td class="p1">
+                        <input type="number" min="0" max="100" step="2"><br>
+                    </td>
+                    <td class="p2">
+                        <input type="number" min="0" max="100" step="2"><br>
+                    </td>
+                    <td class="p3">
+                        <input type="number" min="0" max="100" step="2"><br>
+                    </td>
+                    <td class="p4">
+                        <input type="number" min="0" max="100" step="2"><br>
+                    </td>
+                </form>
             </tr>
 
             <tr>
-              <td>Threes = 3</td>
-              <td>Count and add only Threes</td>
-              <form>
-              <td class="p1">
-                    <input type="number" min="0" max="100" step="3"><br>
-            </td>
-            <td class="p2">
-                  <input type="number" min="0" max="100" step="3"><br>
-          </td>
-          <td class="p3">
-                  <input type="number" min="0" max="100" step="3"><br>
-          </td>
-          <td class="p4">
-                  <input type="number" min="0" max="100" step="3"><br>
-          </td>
-        </form>
+                <td class="dice">Threes = 3 <span> &#x2682;</span></td>
+                <td>Count and add only Threes</td>
+                <form>
+                    <td class="p1">
+                        <input type="number" min="0" max="100" step="3"><br>
+                    </td>
+                    <td class="p2">
+                        <input type="number" min="0" max="100" step="3"><br>
+                    </td>
+                    <td class="p3">
+                        <input type="number" min="0" max="100" step="3"><br>
+                    </td>
+                    <td class="p4">
+                        <input type="number" min="0" max="100" step="3"><br>
+                    </td>
+                </form>
             </tr>
 
             <tr>
-              <td>Fours = 4</td>
-              <td>Count and add only Fours</td>
-              <form>
-              <td class="p1">
-                    <input type="number" min="0" max="100" step="4"><br>
-            </td>
-            <td class="p2">
-                  <input type="number" min="0" max="100" step="4"><br>
-          </td>
-          <td class="p3">
-                  <input type="number" min="0" max="100" step="4"><br>
-          </td>
-          <td class="p4">
-                  <input type="number" min="0" max="100" step="4"><br>
-          </td>
-        </form>
+                <td class="dice">Fours = 4 <span> &#x2683;</span></td>
+                <td>Count and add only Fours</td>
+                <form>
+                    <td class="p1">
+                        <input type="number" min="0" max="100" step="4"><br>
+                    </td>
+                    <td class="p2">
+                        <input type="number" min="0" max="100" step="4"><br>
+                    </td>
+                    <td class="p3">
+                        <input type="number" min="0" max="100" step="4"><br>
+                    </td>
+                    <td class="p4">
+                        <input type="number" min="0" max="100" step="4"><br>
+                    </td>
+                </form>
             </tr>
 
             <tr>
-              <td>Fives = 5</td>
-              <td>Count and add only Fives</td>
-              <form>
-              <td class="p1">
-                    <input type="number" min="0" max="100" step="5"><br>
-            </td>
-            <td class="p2">
-                  <input type="number" min="0" max="100" step="5"><br>
-          </td>
-          <td class="p3">
-                  <input type="number" min="0" max="100" step="5"><br>
-          </td>
-          <td class="p4">
-                  <input type="number" min="0" max="100" step="5"><br>
-          </td>
-        </form>
+                <td class="dice">Fives = 5 <span> &#x2684;</span></td>
+                <td>Count and add only Fives</td>
+                <form>
+                    <td class="p1">
+                        <input type="number" min="0" max="100" step="5"><br>
+                    </td>
+                    <td class="p2">
+                        <input type="number" min="0" max="100" step="5"><br>
+                    </td>
+                    <td class="p3">
+                        <input type="number" min="0" max="100" step="5"><br>
+                    </td>
+                    <td class="p4">
+                        <input type="number" min="0" max="100" step="5"><br>
+                    </td>
+                </form>
             </tr>
 
             <tr>
-              <td>Sixes = 6</td>
-              <td>Count and add only Sixes</td>
-              <form>
-              <td class="p1">
-                    <input type="number" min="0" max="100" step="6"><br>
-            </td>
-            <td class="p2">
-                  <input type="number" min="0" max="100" step="6"><br>
-          </td>
-          <td class="p3">
-                  <input type="number" min="0" max="100" step="6"><br>
-          </td>
-          <td class="p4">
-                  <input type="number" min="0" max="100" step="6"><br>
-          </td>
-        </form>
+                <td class="dice">Sixes = 6 <span> &#x2685;</span></td>
+                <td>Count and add only Sixes</td>
+                <form>
+                    <td class="p1">
+                        <input type="number" min="0" max="100" step="6"><br>
+                    </td>
+                    <td class="p2">
+                        <input type="number" min="0" max="100" step="6"><br>
+                    </td>
+                    <td class="p3">
+                        <input type="number" min="0" max="100" step="6"><br>
+                    </td>
+                    <td class="p4">
+                        <input type="number" min="0" max="100" step="6"><br>
+                    </td>
+                </form>
             </tr>
 
             <tr>
                 <td><strong>TOTAL SCORE</strong></td>
-                <td><strong>&rarr;</strong></td>
+                <td class="arrow"><strong>&rarr;</strong></td>
                 <form>
-                <td class="p1">
-               <input type="number" min="0" max="200">
-        </td>
-            <td class="p2"> 
-                <input type="number" min="0" max="200">
-        </td>
-            <td class="p3">
-                <input type="number" min="0" max="200">
-        </td>
-            <td class="p4">
-                <input type="number" min="0" max="200">
-        </td>
-    </form>
-            </tr>
-           
-            <tr>
-                    <td><p><strong>BONUS</strong><br>If total score is 63 or over</p></td>
-                    <td><strong>SCORE 35</strong></td>
-                    <form>
                     <td class="p1">
-                   <input type="number" min="0" max="200">
-            </td>
-                <td class="p2"> 
-                    <input type="number" min="0" max="200">
-            </td>
-                <td class="p3">
-                    <input type="number" min="0" max="200">
-            </td>
-                <td class="p4">
-                    <input type="number" min="0" max="200">
-            </td>
-        </form>
-                </tr>
-
-                <tr>
-                        <td><p><strong>TOTAL</strong><br>Of Upper Section</p></td>
-                        <td><strong>&rarr;</strong></td>
-                        <form>
-                        <td class="p1">
-                       <input type="number" min="0" max="200">
-                </td>
-                    <td class="p2"> 
                         <input type="number" min="0" max="200">
-                </td>
-                    <td class="p3">
-                        <input type="number" min="0" max="200">
-                </td>
-                    <td class="p4"> 
-                        <input type="number" min="0" max="200">
-                </td>
-            </form>
-                    </tr>
-    
-            <tr>
-             <th align="left" colspan="7" >LOWER SECTION</th>   
-            </tr>
-
-            <tr>
-                <td><strong>3 of a kind</strong></td> 
-                <td>Add total of all dice</td> 
-                <form>
-                <td class="p1">
-                       <input type="number" min="0" max="200">
                     </td>
-                    <td class="p2"> 
+                    <td class="p2">
                         <input type="number" min="0" max="200">
                     </td>
                     <td class="p3">
@@ -210,124 +150,281 @@
                     </td>
                     <td class="p4">
                         <input type="number" min="0" max="200">
-                    </td></form>
+                    </td>
+                </form>
             </tr>
 
             <tr>
-                    <td><strong>4 of a kind</strong></td> 
-                    <td>Add total of all dice</td> 
-                    <form><td class="p1">
-                           <input type="number" min="0" max="200">
-                        </td>
-                        <td class="p2">
-                            <input type="number" min="0" max="200">
-                        </td>
-                        <td class="p3">
-                            <input type="number" min="0" max="200">
-                        </td>
-                        <td class="p4">
-                            <input type="number" min="0" max="200">
-                        </td></form>
-                </tr>
-
-                <tr>
-                        <td><strong>Full House</strong></td> 
-                        <td>Score 25</td> 
-                        <form><td class="p1">
-                               <input type="number" min="0" max="200">
-                            </td>
-                            <td class="p2">
-                                <input type="number" min="0" max="200">
-                            </td>
-                            <td class="p3">
-                                <input type="number" min="0" max="200">
-                            </td>
-                            <td class="p4">
-                                <input type="number" min="0" max="200">
-                            </td></form>
-                    </tr>
-
-                    <tr>
-                            <td><strong>Sm. Straight</strong><br>Sequence of 4</td> 
-                            <td>Score 30</td> 
-                            <form><td class="p1">
-                                   <input type="number" min="0" max="200">
-                                </td>
-                                <td class="p2">
-                                    <input type="number" min="0" max="200">
-                                </td>
-                                <td class="p3">
-                                    <input type="number" min="0" max="200">
-                                </td>
-                                <td class="p4">
-                                    <input type="number" min="0" max="200">
-                                </td></form>
-                        </tr>
-
-                        <tr>
-                                <td><strong>Lg. Straight</strong><br>Sequence of 5</td> 
-                                <td>Score 40</td> 
-                                <form><td class="p1">
-                                       <input type="number" min="0" max="200">
-                                    </td>
-                                    <td class="p2">
-                                        <input type="number" min="0" max="200">
-                                    </td>
-                                    <td class="p3">
-                                        <input type="number" min="0" max="200">
-                                    </td>
-                                    <td class="p4">
-                                        <input type="number" min="0" max="200">
-                                    </td></form>
-                            </tr>
-
-                            <tr>
-                                    <td><strong>YAHTZEE</strong><br>5 of a kind</td> 
-                                    <td>Score 50</td> 
-                                    <form><td class="p1">
-                                           <input type="number" min="0" max="200">
-                                        </td>
-                                        <td class="p2">
-                                            <input type="number" min="0" max="200">
-                                        </td>
-                                        <td class="p3">
-                                            <input type="number" min="0" max="200">
-                                        </td>
-                                        <td class="p4">
-                                            <input type="number" min="0" max="200">
-                                        </td></form>
-                                </tr>
-        
-                                <tr>
-                                        <td><strong>Chance</strong></td> 
-                                        <td>Score Total of all 5 dices</td> 
-                                        <form><td class="p1">
-                                               <input type="number" min="0" max="200">
-                                            </td>
-                                            <td class="p2">
-                                                <input type="number" min="0" max="200">
-                                            </td>
-                                            <td class="p3">
-                                                <input type="number" min="0" max="200">
-                                            </td>
-                                            <td class="p4">
-                                                <input type="number" min="0" max="200">
-                                            </td></form>
-                                    </tr>
-          </table> 
-          <button>
-                <a href = "index.html"> Home</a>
-          </button>
-        </div>
-
-          <div id="chatbox">
-                <form  >
-                  <h1>Chat</h1>
-                  <textarea id = "old" placeholder="History..." ></textarea>
-                  <textarea id = "msg" placeholder="Type message.." ></textarea>
-                  <button type="submit" class="btn">Send</button>
-                  <button type="button" class="cancel">Close</button>
+                <td>
+                    <p><strong>BONUS</strong><br>If total score is 63 or over</p>
+                </td>
+                <td><strong>SCORE 35</strong></td>
+                <form>
+                    <td class="p1">
+                        <input type="number" min="0" max="200">
+                    </td>
+                    <td class="p2">
+                        <input type="number" min="0" max="200">
+                    </td>
+                    <td class="p3">
+                        <input type="number" min="0" max="200">
+                    </td>
+                    <td class="p4">
+                        <input type="number" min="0" max="200">
+                    </td>
                 </form>
-              </div>
-    </body>
+            </tr>
+
+            <tr>
+                <td>
+                    <p><strong>TOTAL</strong><br>Of Upper Section</p>
+                </td>
+                <td class="arrow"><strong>&rarr;</strong></td>
+                <form>
+                    <td class="p1">
+                        <input type="number" min="0" max="200">
+                    </td>
+                    <td class="p2">
+                        <input type="number" min="0" max="200">
+                    </td>
+                    <td class="p3">
+                        <input type="number" min="0" max="200">
+                    </td>
+                    <td class="p4">
+                        <input type="number" min="0" max="200">
+                    </td>
+                </form>
+            </tr>
+
+            <tr>
+                <th align="left" colspan="7">LOWER SECTION</th>
+            </tr>
+
+            <tr>
+                <td><strong>3 of a kind</strong></td>
+                <td>Add total of all dice</td>
+                <form>
+                    <td class="p1">
+                        <input type="number" min="0" max="200">
+                    </td>
+                    <td class="p2">
+                        <input type="number" min="0" max="200">
+                    </td>
+                    <td class="p3">
+                        <input type="number" min="0" max="200">
+                    </td>
+                    <td class="p4">
+                        <input type="number" min="0" max="200">
+                    </td>
+                </form>
+            </tr>
+
+            <tr>
+                <td><strong>4 of a kind</strong></td>
+                <td>Add total of all dice</td>
+                <form>
+                    <td class="p1">
+                        <input type="number" min="0" max="200">
+                    </td>
+                    <td class="p2">
+                        <input type="number" min="0" max="200">
+                    </td>
+                    <td class="p3">
+                        <input type="number" min="0" max="200">
+                    </td>
+                    <td class="p4">
+                        <input type="number" min="0" max="200">
+                    </td>
+                </form>
+            </tr>
+
+            <tr>
+                <td><strong>Full House</strong></td>
+                <td>Score 25</td>
+                <form>
+                    <td class="p1">
+                        <input type="number" min="0" max="200">
+                    </td>
+                    <td class="p2">
+                        <input type="number" min="0" max="200">
+                    </td>
+                    <td class="p3">
+                        <input type="number" min="0" max="200">
+                    </td>
+                    <td class="p4">
+                        <input type="number" min="0" max="200">
+                    </td>
+                </form>
+            </tr>
+
+            <tr>
+                <td><strong>Sm. Straight</strong><br>Sequence of 4</td>
+                <td>Score 30</td>
+                <form>
+                    <td class="p1">
+                        <input type="number" min="0" max="200">
+                    </td>
+                    <td class="p2">
+                        <input type="number" min="0" max="200">
+                    </td>
+                    <td class="p3">
+                        <input type="number" min="0" max="200">
+                    </td>
+                    <td class="p4">
+                        <input type="number" min="0" max="200">
+                    </td>
+                </form>
+            </tr>
+
+            <tr>
+                <td><strong>Lg. Straight</strong><br>Sequence of 5</td>
+                <td>Score 40</td>
+                <form>
+                    <td class="p1">
+                        <input type="number" min="0" max="200">
+                    </td>
+                    <td class="p2">
+                        <input type="number" min="0" max="200">
+                    </td>
+                    <td class="p3">
+                        <input type="number" min="0" max="200">
+                    </td>
+                    <td class="p4">
+                        <input type="number" min="0" max="200">
+                    </td>
+                </form>
+            </tr>
+
+            <tr>
+                <td><strong>YAHTZEE</strong><br>5 of a kind</td>
+                <td>Score 50</td>
+                <form>
+                    <td class="p1">
+                        <input type="number" min="0" max="200">
+                    </td>
+                    <td class="p2">
+                        <input type="number" min="0" max="200">
+                    </td>
+                    <td class="p3">
+                        <input type="number" min="0" max="200">
+                    </td>
+                    <td class="p4">
+                        <input type="number" min="0" max="200">
+                    </td>
+                </form>
+            </tr>
+
+            <tr>
+                <td><strong>Chance</strong></td>
+                <td>Score Total of all 5 dices</td>
+                <form>
+                    <td class="p1">
+                        <input type="number" min="0" max="200">
+                    </td>
+                    <td class="p2">
+                        <input type="number" min="0" max="200">
+                    </td>
+                    <td class="p3">
+                        <input type="number" min="0" max="200">
+                    </td>
+                    <td class="p4">
+                        <input type="number" min="0" max="200">
+                    </td>
+                </form>
+            </tr>
+
+
+            <tr>
+                <td rowspan="2"><strong>Yahtsee Bonus</strong></td>
+                <td> &#10003; For each bonus</td>
+                <td class="multiInputs p1" >
+                    <input type="number" min="0" max="200">
+                    <input type="number" min="0" max="200">
+                    <input type="number" min="0" max="200">
+                </td>
+                <td class="multiInputs p2">
+                    <input type="number" min="0" max="200">
+                    <input type="number" min="0" max="200">
+                    <input type="number" min="0" max="200">
+                </td>
+                <td class="multiInputs p3">
+                    <input type="number" min="0" max="200">
+                    <input type="number" min="0" max="200">
+                    <input type="number" min="0" max="200">
+                </td>
+                <td class="multiInputs p4">
+                    <input type="number" min="0" max="200">
+                    <input type="number" min="0" max="200">
+                    <input type="number" min="0" max="200">
+                </td>
+            </tr>
+
+            <tr>
+                <td> Score 100 per &#10003; </td>
+                <td class="multiInputs p1" >
+                    <input type="number" min="0" max="200">
+                    <input type="number" min="0" max="200">
+                    <input type="number" min="0" max="200">
+                </td>
+                <td class="multiInputs p2" >
+                    <input type="number" min="0" max="200">
+                    <input type="number" min="0" max="200">
+                    <input type="number" min="0" max="200">
+                </td>
+                <td class="multiInputs p3">
+                    <input type="number" min="0" max="200">
+                    <input type="number" min="0" max="200">
+                    <input type="number" min="0" max="200">
+                </td>
+                <td class="multiInputs p4">
+                    <input type="number" min="0" max="200">
+                    <input type="number" min="0" max="200">
+                    <input type="number" min="0" max="200">
+                </td>
+            </tr>
+
+            <tr>
+                <td><strong>TOTAL</strong> <br>Of Lower Section</td>
+                <td class="arrow">&rarr;</td>
+                <td class="p1"><input type="number" min="0" max="200"></td>
+                <td class="p2"><input type="number" min="0" max="200"></td>
+                <td class="p3"><input type="number" min="0" max="200"></td>
+                <td class="p4"><input type="number" min="0" max="200"></td>
+            </tr>
+
+            <tr>
+                <td><strong>TOTAL</strong> <br>Of Upper Section</td>
+                <td class="arrow">&rarr;</td>
+                <td class="p1"><input type="number" min="0" max="200"></td>
+                <td class="p2"><input type="number" min="0" max="200"></td>
+                <td class="p3"><input type="number" min="0" max="200"></td>
+                <td class="p4"><input type="number" min="0" max="200"></td>
+            </tr>
+
+            <tr>
+                <td><strong>GRAND TOTAL</strong></td>
+                <td class="arrow">&rarr;</td>
+                <td class="p1"><input type="number" min="0" max="200"></td>
+                <td class="p2"><input type="number" min="0" max="200"></td>
+                <td class="p3"><input type="number" min="0" max="200"></td>
+                <td class="p4"><input type="number" min="0" max="200"></td>
+            </tr>
+
+        </table>
+        <button class="home">
+            <a href="index.html"> Home</a>
+        </button>
+    </div>
+
+    <div id="chatbox">
+        <form>
+            <h1>Chat</h1>
+            <textarea id="old" placeholder="History..."></textarea>
+            <textarea id="msg" placeholder="Type message.."></textarea>
+            <button type="submit" class="btn">Send</button>
+            <button type="button" class="cancel">Close</button>
+        </form>
+    </div>
+</body>
+
 </html>
