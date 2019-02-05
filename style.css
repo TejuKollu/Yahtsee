@@ -180,8 +180,8 @@ input[type=checkbox]
   text-align: center;
 }
 
-button#diceFormBtn{
-    margin-left: 350px;
+button#diceFormBtn, #doneBtn{
+    margin-left: 90px;
     text-align: center;
     background-color: #90e9ae;
     color: #1f1c1c;
@@ -196,10 +196,10 @@ button#diceFormBtn{
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transition-duration: 1s;
 }
-button#diceFormBtn:hover {
+button#diceFormBtn:hover, #doneBtn:hover{
     background-color: hsl(202, 68%, 52%)
 }
-button#diceFormBtn :active{
+button#diceFormBtn :active, #doneBtn:active{
     background-color: rgb(150, 150, 226);
     box-shadow: 0 5px #666;
     transform: translateY(4px);
