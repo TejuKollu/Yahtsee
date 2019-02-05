@@ -103,7 +103,7 @@ textarea#msg {
 }
 
 .home{
-    margin-left: 300px;
+    margin-left: 350px;
     text-align: center;
     background-color: rgb(30, 218, 252);
     color: white;
@@ -112,7 +112,7 @@ textarea#msg {
     padding: 16px 20px;
     border: none;
     cursor: pointer;
-    width: 380px;
+    width: 250px;
     margin-bottom: 10px;
     opacity: 0.8;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -157,7 +157,6 @@ div#chatbox h1 {
 
 div#chatbox {
     width: 100px;
-   
     position: absolute;
     right: 300px;
     bottom: 0px;
@@ -166,4 +165,42 @@ div#chatbox {
 
 div#chatbox:hover {
     width: 220px;
+}
+
+input[type=checkbox]
+{
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(2); /* IE */
+  -moz-transform: scale(2); /* FF */
+  -webkit-transform: scale(2); /* Safari and Chrome */
+  -o-transform: scale(2); /* Opera */
+  padding: 10px;
+  
+  margin-left: 30%;
+  text-align: center;
+}
+
+button#diceFormBtn{
+    margin-left: 350px;
+    text-align: center;
+    background-color: #90e9ae;
+    color: #1f1c1c;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 250px;
+    margin-bottom: 10px;
+    opacity: 0.8;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition-duration: 1s;
+}
+button#diceFormBtn:hover {
+    background-color: hsl(202, 68%, 52%)
+}
+button#diceFormBtn :active{
+    background-color: rgb(150, 150, 226);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
 }

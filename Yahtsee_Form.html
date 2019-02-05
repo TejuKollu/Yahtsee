@@ -29,13 +29,13 @@
                         <input id= "p11" type="number" min="0" max="100" step="1"><br>
                     </td>
                     <td class="p2">
-                        <input type="number" min="0" max="100" step="1"><br>
+                        <input id= "p21" type="number" min="0" max="100" step="1"><br>
                     </td>
                     <td class="p3">
-                        <input type="number" min="0" max="100" step="1"><br>
+                        <input id= "p31" type="number" min="0" max="100" step="1"><br>
                     </td>
                     <td class="p4">
-                        <input type="number" min="0" max="100" step="1"><br>
+                        <input id= "p41" type="number" min="0" max="100" step="1"><br>
                     </td>
             </tr>
 
@@ -46,13 +46,13 @@
                         <input id= "p12" type="number" min="0" max="100" step="2"><br>
                     </td>
                     <td class="p2">
-                        <input type="number" min="0" max="100" step="2"><br>
+                        <input id= "p22" type="number" min="0" max="100" step="2"><br>
                     </td>
                     <td class="p3">
-                        <input type="number" min="0" max="100" step="2"><br>
+                        <input id= "p32" type="number" min="0" max="100" step="2"><br>
                     </td>
                     <td class="p4">
-                        <input type="number" min="0" max="100" step="2"><br>
+                        <input id= "p42" type="number" min="0" max="100" step="2"><br>
                     </td>
             </tr>
 
@@ -63,13 +63,13 @@
                         <input id= "p13" type="number" min="0" max="100" step="3"><br>
                     </td>
                     <td class="p2">
-                        <input type="number" min="0" max="100" step="3"><br>
+                        <input id= "23" type="number" min="0" max="100" step="3"><br>
                     </td>
                     <td class="p3">
-                        <input type="number" min="0" max="100" step="3"><br>
+                        <input id= "33" type="number" min="0" max="100" step="3"><br>
                     </td>
                     <td class="p4">
-                        <input type="number" min="0" max="100" step="3"><br>
+                        <input id= "43" type="number" min="0" max="100" step="3"><br>
                     </td>
             </tr>
 
@@ -80,13 +80,13 @@
                         <input id= "p14" type="number" min="0" max="100" step="4"><br>
                     </td>
                     <td class="p2">
-                        <input type="number" min="0" max="100" step="4"><br>
+                        <input id= "p24" type="number" min="0" max="100" step="4"><br>
                     </td>
                     <td class="p3">
-                        <input type="number" min="0" max="100" step="4"><br>
+                        <input id= "p34" type="number" min="0" max="100" step="4"><br>
                     </td>
                     <td class="p4">
-                        <input type="number" min="0" max="100" step="4"><br>
+                        <input id= "p44" type="number" min="0" max="100" step="4"><br>
                     </td>
             </tr>
 
@@ -128,19 +128,19 @@
                 <td><strong>TOTAL SCORE</strong></td>
                 <td class="arrow"><strong>&rarr;</strong></td>
                     <td class="p1">
-                       <button type="submit" id="calculate">Calculate</button>
+                       <button type="submit" id="calculate_p1">Calculate</button>
                         <input  type="number" min="0" max="200" id="resultP1">
                     </td>
                     <td class="p2">
-                          <button type="submit" id="calculate">Calculate</button>
+                          <button type="submit" id="calculate_p2">Calculate</button>
                         <input type="number" min="0" max="200" id="resultP2">
                     </td>
                     <td class="p3">
-                           <button type="submit" id="calculate">Calculate</button> 
+                           <button type="submit" id="calculate_p3">Calculate</button> 
                         <input type="number" min="0" max="200" id="resultP3">
                     </td>
                     <td class="p4">
-                          <button type="submit" id="calculate">Calculate</button> 
+                          <button type="submit" id="calculate_p4">Calculate</button> 
                         <input type="number" min="0" max="200" id="resultP4">
                     </td>
             </tr>
@@ -389,16 +389,42 @@
         </button>
     </div>
 
-    <div id="chatbox">
-        <form>
-            <h1>Chat</h1>
-            <textarea id="old" placeholder="History..."></textarea>
-            <textarea id="msg" placeholder="Type message.."></textarea>
-            <button type="submit" class="btn">Send</button>
-            <button type="button" class="cancel">Close</button>
-        </form>
-    </div>
-    <script src="yahtsee.js"></script>
+    <!--dice form-->
+
+<div>
+    <p></p>
+    <table>
+        <tr>
+            <td><textarea id="dice1" placeholder="dice1"></textarea></td>
+            <td><textarea id="dice2" placeholder="dice2"></textarea></td>
+            <td><textarea id="dice3" placeholder="dice3"></textarea></td>
+            <td><textarea id="dice4" placeholder="dice4"></textarea></td>
+            <td><textarea id="dice5" placeholder="dice5"></textarea></td>
+        </tr>
+        <tr>
+            <td><input type="checkbox" name="dice1" id="cb1"></td>
+            <td><input type="checkbox" name="dice2" id="cb2"></td>
+            <td><input type="checkbox" name="dice3" id="cb3"></td>
+            <td><input type="checkbox" name="dice4" id="cb4"></td>
+            <td><input type="checkbox" name="dice5" id="cb5"></td>
+        </tr>
+    </table>
+    <button id="diceFormBtn">Submit</button>
+</div>
+
+<!--
+<div id="chatbox">
+    <form>
+        <h1>Chat</h1>
+        <textarea id="old" placeholder="History..."></textarea>
+        <textarea id="msg" placeholder="Type message.."></textarea>
+        <button type="submit" class="btn">Send</button>
+        <button type="button" class="cancel">Close</button>
+    </form>
+</div>
+-->
+
+<script src="yahtsee.js"></script>
 </body>
 
 </html>
