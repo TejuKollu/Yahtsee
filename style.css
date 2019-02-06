@@ -181,16 +181,16 @@ input[type=checkbox]
 }
 
 button#diceFormBtn, #doneBtn{
-    margin-left: 90px;
+    margin-left: 150px;
     text-align: center;
     background-color: #90e9ae;
     color: #1f1c1c;
     font-weight: bold;
-    font-size: 20px;
-    padding: 16px 20px;
+    font-size: 12px;
+    padding: 10px 10px;
     border: none;
     cursor: pointer;
-    width: 250px;
+    width: 150px;
     margin-bottom: 10px;
     opacity: 0.8;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -203,4 +203,10 @@ button#diceFormBtn :active, #doneBtn:active{
     background-color: rgb(150, 150, 226);
     box-shadow: 0 5px #666;
     transform: translateY(4px);
+}
+
+th#diceFormHeader{
+    background-color: crimson;
+    font-weight: bold;
+    color: white;
 }
